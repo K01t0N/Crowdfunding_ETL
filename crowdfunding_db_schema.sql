@@ -2,7 +2,7 @@ CREATE TABLE contacts (
     contact_id INTEGER NOT NULL PRIMARY KEY,
 	first_name VARCHAR(30) NOT NULL,
 	last_name VARCHAR(30) NOT NULL,
-	email VARCHAR(30) NOT NULL
+	email VARCHAR(60) NOT NULL
 );
 
 CREATE TABLE category (
@@ -18,10 +18,10 @@ CREATE TABLE subcategory (
 CREATE TABLE campaign (
     cf_id INTEGER NOT NULL PRIMARY KEY,
 	contact_id INTEGER NOT NULL,
-	company_name VARCHAR(30) NOT NULL,
-    description VARCHAR(128) NOT NULL,
-	goal INTEGER NOT NULL,
-    pledged INTEGER NOT NULL,
+	company_name VARCHAR(60) NOT NULL,
+    description VARCHAR(255) NOT NULL,
+	goal FLOAT NOT NULL,
+    pledged FLOAT NOT NULL,
 	outcome VARCHAR(30) NOT NULL,
     backers_count INTEGER NOT NULL,
     country VARCHAR(2) NOT NULL,
