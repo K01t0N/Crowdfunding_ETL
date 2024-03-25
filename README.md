@@ -1,5 +1,8 @@
 # Crowdfunding_ETL
 
+#Overview of the Work-load
+Building an ETL pipeline using Python, Pandas, and Python dictionary methods to extract and transform the data. After the data were transformed, four CSV files were created, and the CSV file data were used to create an ERD and a table schema. Finally, the csv data files were uploaded into the Postgres.
+
 ### References for the project notebook:
 
 Cell 29 of 48, json.loads():
