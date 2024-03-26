@@ -1,9 +1,16 @@
 # Crowdfunding_ETL
 
-# Overview of the Work-load
+# Project Overview
 
-Building an ETL pipeline using Python, Pandas, and Python dictionary methods to extract and transform the data. After the data were transformed, four CSV files were created, and the CSV file data were used to create an ERD and a table schema. Finally, the CSV data files were uploaded into the Postgres. Furthermore, data-handling, and manipulation were done using the Postgres.
-The screenshot of the data is posted into the Github, including the Jupyter Notebook for the python and pandas. 
+This project involved building an ETL pipeline using Python, the Pandas library, and Python dictionary methods to extract and transform the data. After the data was transformed, four CSV files were exported, and the CSV file data was used to design an Entity-Relationship Diagram (ERD) and a table schema. Finally, the CSV data files were uploaded into PostgreSQL via pgAdmin. Once the data was loaded, Exploratory Data Analysis (EDA) was conducted, both to test the success of the data imports and table schema, as well as to get initial insights about the data.
+
+
+The screenshots of the data are posted into the Github, including the Jupyter Notebook for data cleaning and transformation.
+
+![image info](./database_screenshots/category.png)
+![image info](./database_screenshots/category.png)
+![image info](./database_screenshots/subcategory.png)
+![image info](./database_screenshots/contacts.png)
 
 ### References for the project notebook:
 
